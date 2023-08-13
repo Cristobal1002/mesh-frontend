@@ -1,0 +1,7 @@
+{
+  "name": "mesh-front",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

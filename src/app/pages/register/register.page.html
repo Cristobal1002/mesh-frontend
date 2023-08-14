@@ -1,0 +1,112 @@
+<ion-content [fullscreen]="true">
+
+  <div class="flex flex-col w-full h-full px-5 justify-center items-center">
+    <p class="font-extrabold font-Mon text-3xl pb-2 ">Sign Up!</p>
+    <p class="w-full px-5 h-auto text-center font-medium font-Mon text-xs text-gray-600 pb-3">Crea una cuenta y disfruta
+      de cumplir
+      con tus objetivos organizacionales de manera facil y eficaz</p>
+
+    <form action="" class="flex flex-col w-full h-auto p-5">
+
+      <div class="flex w-full h-20 space-x-2">
+        <div class="flex flex-col w-1/2">
+          <label for="" class="text-xs font-semibold font-Mon text-gray-500 pb-1 w-1/2">Nombre</label>
+          <div class="relative w-full">
+            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+              <svg class="h-6 w-6 text-gray-700 dark:text-gray-400" width="24" height="24" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <circle cx="12" cy="7" r="4" />
+                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+              </svg>
+            </div>
+            <input type="text"
+             
+            class="border border-gray-300 
+            text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 
+             block w-full pl-10 p-2.5 placeholder-gray-400 placeholder:font-medium font-semibold focus:font-semibold
+           dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+           placeholder="Tu nombre" required>
+          </div>
+
+        </div>
+
+        <div class="flex flex-col w-1/2">
+          <label for="" class="text-xs font-semibold font-Mon text-gray-500 pb-1 w-1/2">Apellidos</label>
+          <input type="text"
+        
+          class="border border-gray-300 
+          text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 
+           block w-full pl-3 p-2.5 placeholder-gray-400 placeholder:font-medium font-semibold focus:font-semibold
+         dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" 
+         placeholder="Tu apellido" required>
+        </div>
+
+      </div>
+
+      <div class="flex flex-col w-full h-20">
+        <label for="" class="text-xs font-semibold font-Mon text-gray-500 pb-1">Email</label>
+        <div class="relative w-full">
+          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+            <svg class="h-6 w-6 text-gray-700 dark:text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <input type="email"
+          
+          class="border border-gray-300 
+          text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 
+           block w-full pl-10 p-2.5 placeholder-gray-400 placeholder:font-medium font-semibold focus:font-semibold
+         dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" 
+         placeholder="Ingresa tu email" required>
+        </div>
+      </div>
+
+      <div class="flex flex-col w-full h-20">
+        <label for="" class="text-xs font-semibold font-Mon text-gray-500 pb-1">Password</label>
+        <div class="relative w-full">
+          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+            <svg class="h-6 w-6 text-gray-700 dark:text-gray-400" width="24" height="24" viewBox="0 0 24 24"
+              stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" />
+              <rect x="5" y="11" width="14" height="10" rx="2" />
+              <circle cx="12" cy="16" r="1" />
+              <path d="M8 11v-4a4 4 0 0 1 8 0v4" />
+            </svg>
+          </div>
+          <input type="password"
+            class="border border-gray-300 
+             text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 
+              block w-full pl-10 p-2.5 placeholder-gray-400 placeholder:font-medium font-semibold focus:font-semibold
+            dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Password" required>
+        </div>
+      </div>
+
+      <div class="flex w-full h-auto pt-5">
+        <button
+          class=" flex shadow-md w-full h-14 items-center justify-center rounded-xl bg-gradient-to-b from-blue-500 to-fuchsia-500">
+          <p class="font-Mon font-semibold text-normal text-white">Crear una cuenta</p>
+        </button>
+      </div>
+    </form>
+
+    <div class="flex flex-col w-full h-auto justify-center p-5">
+      <div class="flex w-full justify-center items-center">
+        <hr class="flex w-1/4 justify-end">
+        <p class="flex w-2/4 justify-center font-extrabold font-Mon text-xs">O resgitrate con</p>
+        <hr class="flex w-1/4 ">
+      </div>
+    </div>
+
+    <div class="flex w-full h-auto p-5  justify-center items-center">
+      <button class="flex shadow-md w-full h-12 rounded-xl border justify-center items-center  border-gray-300 space-x-2">
+        <img class="h-6 w-6" src="../../../assets/images/google-color.png" alt="">
+        <p class="font-Mon text-xs font-semibold text-gray-500">Continúa con Google</p>
+      </button>
+    </div>
+
+  </div>
+
+</ion-content>
